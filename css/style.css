@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 /* ===== VARIABLES ===== */
 :root {
@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 800;
   font-size: 1.2rem;
   color: var(--c1);
@@ -129,7 +129,7 @@ nav a:hover::after, nav a.active::after {
 }
 
 #hero h1 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: clamp(3rem, 7vw, 5.5rem);
   font-weight: 800;
   line-height: 1.0;
@@ -232,7 +232,7 @@ nav a:hover::after, nav a.active::after {
 }
 
 .hero-initials {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 5rem;
   font-weight: 800;
   background: linear-gradient(135deg, var(--c1), var(--c5));
@@ -265,12 +265,30 @@ nav a:hover::after, nav a.active::after {
 }
 
 h2 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 800;
   letter-spacing: -0.02em;
   margin-bottom: 3rem;
   line-height: 1.1;
+}
+
+.btn-cv {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  border: 1px solid var(--c1);
+  color: var(--c1);
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.btn-cv:hover {
+  background: var(--c1);
+  color: #0d0d0d;
+  transform: translateY(-2px);
 }
 
 /* ===== À PROPOS ===== */
@@ -315,7 +333,7 @@ h2 {
   height: 3px;
   background: linear-gradient(90deg, var(--c1), var(--c5));
 }
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 800;
   color: var(--text);
@@ -392,7 +410,7 @@ h2 {
 .timeline-item:nth-child(3)::before { background: var(--c4); }
 
 .timeline-date {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   color: var(--muted);
@@ -426,7 +444,7 @@ h2 {
 }
 
 .timeline-content h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   color: var(--text);
@@ -457,7 +475,7 @@ h2 {
 }
 
 .langues-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 1.75rem;
@@ -585,7 +603,7 @@ h2 {
 .project-card:nth-child(5)::before { background: linear-gradient(90deg, var(--c1), var(--c2)); }
 
 .project-num {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--c1);
@@ -594,7 +612,7 @@ h2 {
 }
 
 .project-card h3 {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--text);
@@ -768,7 +786,7 @@ h2 {
 }
 
 .availability-title {
-  font-family: 'Syne', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
